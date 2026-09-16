@@ -1,0 +1,4 @@
+# esbuild ships a prebuilt binary via its @esbuild/* optional deps; its build script is only a
+# startup micro-optimization and a from-source fallback.
+allowBuilds:
+  esbuild: false
