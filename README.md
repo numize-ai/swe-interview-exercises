@@ -1,6 +1,6 @@
 # SWE interview exercises
 
-Two short code-review exercises, ~20 minutes each, done live with an interviewer.
+Two short code-review and refactoring exercises, ~20 minutes each.
 
 Nothing here is a trick and nothing is hidden: both exercises are plain files you read and improve
 out loud. Use your IDE and your AI assistant exactly as you would on a normal working day — we do.
@@ -22,9 +22,6 @@ that is our bug, not yours.
 > Imagine you own this code in production. Review it and improve it as much as you think is
 > appropriate. Explain your decisions as you go.
 
-The interviewer will add requirements one at a time as the discussion goes, so resist the urge to
-build for all of them up front.
-
 Not under review, but yours to change if your design needs it:
 
 - `src/typescript/database.ts` — an in-memory stand-in for the real database layer.
@@ -38,9 +35,3 @@ Not under review, but yours to change if your design needs it:
 
 There is no server behind it: `/api/dashboards/:id` does not exist, and the component is here to be
 read and reasoned about rather than run. `Chart.tsx`, `Spinner.tsx` and `types.ts` are support code.
-
-## What we are looking for
-
-Prioritisation more than exhaustiveness. Naming the two or three things that actually matter, and
-saying why, beats listing every imperfection. Telling us an improvement is not worth making is a
-good answer too.
